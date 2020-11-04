@@ -55,7 +55,7 @@ We can confirm this runs by setting a few variables in your environment via the 
 
 You can now view your site at localhost:5000 in the browser. It won't show much, but is enough to confirm that everything works correctly.
 
-## Add in the Faker Categories for Random Values
+## Add in the Temperature Conversion Parts
 
 With that running, we're ready to do the work. Just refresh the page, modify the form, try it, etc. As you have errors, just edit the file and then refresh the page.
 
