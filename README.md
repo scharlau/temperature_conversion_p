@@ -32,7 +32,10 @@ Put this code in the file:
         @app.route('/')
         def index():
             return render_template("index.html")
-We'll use html templates for the views to make it easier to write those than if we did the views in the temp_c.py file. Create a folder 'templates' in the main folder. Inside 'templates' create a file called 'index.html' and put this into that file:
+
+We'll use an html template for the view in the browser to make it easier to write than if we did the view as a method that outout html in the temp_c.py file. 
+
+Create a folder 'templates' in the main folder. Inside 'templates' create a file called 'index.html' and put this into that file:
 
         <!DOCTYPE html>
             <html>
@@ -40,11 +43,8 @@ We'll use html templates for the views to make it easier to write those than if 
                     <title>Temperature Conversion</title>
                 </head>
             <body>
- 
             <h1>Temperature Conversion</h1>
-            <p>
-                Your converted temperature of x in F is y in C
-            </p>
+            <p>Your converted temperature of x in F is y in C </p>
             </body>
         </html>
 
