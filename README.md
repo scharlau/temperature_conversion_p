@@ -71,7 +71,7 @@ You can get started by creating a form in the index.html file to enter the tempe
     </p>
 
 We can rewrite the method in the temp_c.py file to check if the page request is a GET or a POST, and respond accordingly.
-We need to declare the variables that we pass back to the index.html page so that they have a value even when it's a GET request.
+We need to declare the variables that we pass back to the index.html page so that they have a value even when it's a GET request. We also need to convert the input value from the string that's in the form to an integer before we can use it to determine the temperature in celsius.
 
     from flask import Flask, render_template, request
     app = Flask(__name__)
