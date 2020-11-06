@@ -19,6 +19,7 @@ Create a new project folder called 'story_generator' and then cd into the folder
         pip install --upgrade pip [ this is optional]  # this installs pip, and upgrades it if required.
 
 We will use Flask (https://flask.palletsprojects.com/en/1.1.x/) as our web framework for the application. We install that with 
+
         pip install flask
 
 And that will install flask with its associated dependencies. We can now start to build the application.
