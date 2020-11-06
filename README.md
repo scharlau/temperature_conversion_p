@@ -20,6 +20,7 @@ Create a new project folder called 'story_generator' and then cd into the folder
 
 We will use Flask (https://flask.palletsprojects.com/en/1.1.x/) as our web framework for the application. We install that with 
         pip install flask
+
 And that will install flask with its associated dependencies. We can now start to build the application.
 
 ## Start the web components 
