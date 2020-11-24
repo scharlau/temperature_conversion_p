@@ -93,4 +93,4 @@ Round one: This version does the conversion in the index() method. You could mov
 
 Round two: build on the previous work so that you can convert from celsius to farhrenheit in the same form by adding a radio button, which will let you indicate which way you want to do the conversion. 
 
-Round three: Develop some other feature to push the boundaries of what you want to learn with Rails.
+Round three: Develop some other feature to push the boundaries of what you want to learn with Flask.
