@@ -91,8 +91,8 @@ We need to declare the variables that we pass back to the index.html page so tha
 
 ## Take it further
 
-Round one: This version does the conversion in the index() method. You could move the conversion to a separate method so that you have more scope for change in round two.
+Round one: This version does the conversion in the index() method. You could move the conversion to a separate method so that you have more scope for change in round two. The solution here started with the 'fahrenheit' option in its own method.
 
-Round two: Build on the previous round so that you can convert from celsius to farhrenheit in the same form by adding a radio button, which will let you indicate which way you want to do the conversion. 
+Round two: Build on the previous round so that you can convert from celsius to farhrenheit in the same form by adding a radio button, which will let you indicate which way you want to do the conversion. After adding simple html radio buttons we can now modify the convert method to also take the option, and then check what it is, and use that in the if/elif option. This meant modifying the displayed value too to something simple so that you'd know what the result was.
 
-Round three: Develop some other feature to push the boundaries of what you want to learn with Flask. For example, you might add two methods (convert_t_f, and convert_t_c) which are called as needed from index method.
+Round three: Develop some other feature to push the boundaries of what you want to learn with Flask. For example, you might add two methods (convert_t_f, and convert_t_c) which are called as needed from index method, or maybe you want to display an image based on the temperature.
